@@ -1,4 +1,4 @@
----
+
 ```
 ______ _                       _  ______     _              ______       _   
 |  _  (_)                     | | | ___ \   | |             | ___ \     | |  
@@ -9,7 +9,6 @@ ______ _                       _  ______     _              ______       _
                                                       __/ |                  
                                                      |___/ 
 ```                  
----
 Discord Relay bot 
 - 
 #### it puts the chat in the channel or it gets the hose again
