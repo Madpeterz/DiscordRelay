@@ -10,18 +10,27 @@ namespace DiscordRelay.Discord
         {
             if (targetserver == 0)
             {
+                Console.WriteLine("No target server configed - forcing exit");
                 return true;
             }
             if (targetchannel == 0)
             {
+                Console.WriteLine("No target channel configed - forcing exit");
                 return true;
             }
             if (logintoken.Length == 0)
             {
+                Console.WriteLine("No login token - forcing exit");
                 return true;
             }
             if (master == 0)
             {
+                Console.WriteLine("No master id - forcing exit");
+                return true;
+            }
+            if(relays.Count == 0)
+            {
+                Console.WriteLine("No relays configed - forcing exit");
                 return true;
             }
             return forceExit;
