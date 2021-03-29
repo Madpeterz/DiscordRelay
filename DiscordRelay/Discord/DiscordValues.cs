@@ -33,20 +33,20 @@ namespace DiscordRelay.Discord
         }
         public void setTargetServer(ulong serverid, ulong channelid)
         {
-            Console.WriteLine("Info: Setting target server");
+            Console.WriteLine("Info: Setting target server: "+serverid.ToString()+" / "+channelid.ToString());
             targetserver = serverid;
             targetchannel = channelid;
         }
         public void setMaster(ulong masterid)
         {
-            Console.WriteLine("Info: Setting master");
+            Console.WriteLine("Info: Setting master:" + masterid.ToString());
             master = masterid;
         }
 
         public void addRelayServer(ulong serverid, ulong channelid)
         {
             relays.Add(serverid, channelid);
-            Console.WriteLine("Info: Adding relay "+relays.Count.ToString());
+            Console.WriteLine("Info: Adding relay : " + serverid.ToString() + " / " + channelid.ToString()+" id:"+relays.Count.ToString());
         }
     }
 }
