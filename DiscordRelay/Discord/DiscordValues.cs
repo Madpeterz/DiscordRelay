@@ -25,8 +25,11 @@ namespace DiscordRelay.Discord
 
         public void setToken(string token)
         {
-            Console.WriteLine("Info: Setting token");
-            logintoken = token;
+            if (token != null)
+            {
+                Console.WriteLine("Info: Setting token");
+                logintoken = token;
+            }
         }
         public void setTargetServer(ulong serverid, ulong channelid)
         {
