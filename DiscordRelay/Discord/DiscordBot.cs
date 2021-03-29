@@ -11,11 +11,6 @@ namespace DiscordRelay.Discord
         public async void StartRelay()
         {
             Console.WriteLine("Status: StartRelay");
-            if (exit() == true)
-            {
-                Console.WriteLine("Exiting - bad config");
-                return;
-            }
             await StartDiscordClientService().ConfigureAwait(false); 
         }
 
