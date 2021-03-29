@@ -5,4 +5,3 @@ DiscordRelay/obj/
 .vs/DiscordRelay/DesignTimeBuild/.dtbcache.v2
 DiscordRelay/Dockerfile
 DiscordRelay/DiscordRelay.csproj.user
-DiscordRelay/settings.env
