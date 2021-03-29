@@ -39,5 +39,11 @@ namespace DiscordRelay.Discord
             Console.WriteLine("Info: Setting master");
             master = masterid;
         }
+
+        public void addRelayServer(ulong serverid, ulong channelid)
+        {
+            relays.Add(serverid, channelid);
+            Console.WriteLine("Info: Adding relay "+relays.Count.ToString());
+        }
     }
 }
