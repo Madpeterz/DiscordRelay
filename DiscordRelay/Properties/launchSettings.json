@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DiscordRelay": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
